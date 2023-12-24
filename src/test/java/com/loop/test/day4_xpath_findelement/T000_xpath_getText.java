@@ -89,6 +89,5 @@ public class T000_xpath_getText {
             System.out.println("Element is not there anymore");
             e.printStackTrace();
         }
-
     }
 }

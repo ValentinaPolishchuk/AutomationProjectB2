@@ -14,7 +14,6 @@ public class T0_forget_password {
         WebDriver driver = WebDriverFactory.getDriver("chrome");
         driver.manage().window().maximize();
         driver.get("https://beta.docuport.app");
-
         // forget password link
         WebElement forgetPasswordLink = driver.findElement(By.cssSelector("a[href='/reset-password']"));
         forgetPasswordLink.click();

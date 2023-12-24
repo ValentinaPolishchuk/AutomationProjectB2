@@ -22,8 +22,6 @@ public class DocuportConstants {
 
 
 
-
-
     public static final String PASSWORD = "Group1";
 
     public static final String USERNAME_ADVISOR = "b1g1_advisor@gmail.com";

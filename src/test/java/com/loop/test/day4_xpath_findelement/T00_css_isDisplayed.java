@@ -21,7 +21,5 @@ public class T00_css_isDisplayed {
         }else {
             System.out.println("Forget password heading is NOT displayed");
         }
-
-
     }
 }
