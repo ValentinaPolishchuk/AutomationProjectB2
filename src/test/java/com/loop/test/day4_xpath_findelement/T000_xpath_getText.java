@@ -58,8 +58,8 @@ public class T000_xpath_getText {
 
         //    7. validate cancel button is displayed
         //    8. validate send button is displayed
-        WebElement cancelButton = driver.findElement(By.xpath("//span[normalize-space()='Cancel']"));
-        WebElement sendButton = driver.findElement(By.xpath("//span[normalize-space()='Send']"));
+        WebElement cancelButton = driver.findElement(By.xpath("//span[normalize-space()='Cancel']")); // //span[.=' Cancel ']
+        WebElement sendButton = driver.findElement(By.xpath("//span[normalize-space()='Send']")); // //span[.=' Send ']
 
         if (cancelButton.isDisplayed()){
             System.out.println("TEST PASS => Cancel button is displayed");
